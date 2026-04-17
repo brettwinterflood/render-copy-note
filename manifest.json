@@ -1,0 +1,9 @@
+{
+  "id": "note-renderer",
+  "name": "Note Renderer",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Render and copy notes with Dataview support for LLM context, transferring vault data to LLMs for contextual conversations",
+  "author": "Brett Winterflood",
+  "isDesktopOnly": false
+}

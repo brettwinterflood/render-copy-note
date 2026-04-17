@@ -1,0 +1,25 @@
+{
+  "name": "render-copy-note",
+  "version": "1.0.0",
+  "description": "Readable source project for the render-copy-note Obsidian plugin.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "dev": "node esbuild.config.mjs --watch",
+    "install-plugin": "./build.sh",
+    "build-and-install": "npm run build && npm run install-plugin"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "dataview"
+  ],
+  "author": "Brett Winterflood",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "esbuild": "^0.25.9",
+    "obsidian": "^1.8.10",
+    "typescript": "^5.9.3"
+  }
+}
